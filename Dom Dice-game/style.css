@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    position: absolute;
+    height: 100ch;
+    width: 40%;
+    font-family: 'Caveat', cursive;
+    color: rgb(107, 163, 165);
+}
+
+body {
+    background-color: rgb(193, 219, 182);
+}
+
+.changeMe {
+    color: rgb(102, 155, 157);
+    margin-top: 4rem;
+    position: relative;
+    font-size: 5rem;
+    left: 14rem;
+    font-weight: 900;
+}
+
+.player {
+    margin-top: 4rem;
+    position: relative;
+    font-size: 3rem;
+    left: 8rem;
+    display: flex;
+}
+
+.playerOne {
+    margin-right: 8rem;
+}
+
+.playerTwo {
+    margin-right: 6rem;
+}
+
+.playerOneDice,
+.playerTwoDice {
+    position: relative;
+    margin-top: 5rem;
+}
+
+.playerOneDice {
+    right: 25rem;
+}
+
+.playerTwoDice {
+    right: 11rem;
+}
+
+.clickMe {
+    color: rgb(102, 155, 157);
+    margin-top: 15rem;
+    position: relative;
+    font-size: 1.5rem;
+    border: 1px soild black;
+    border-radius: 1rem;
+    height: 2rem;
+    text-align: center;
+    width: 5rem;
+    right: 35rem;
+    top: 9rem;
+}
+
+.img6 {
+    position: relative;
+    height: 10rem;
+    width: 10rem;
+    right: 5rem;
+}
+
+.imgc6 {
+    position: relative;
+    height: 10rem;
+    width: 10rem;
+    right: 11rem;
+}
